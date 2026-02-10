@@ -441,3 +441,34 @@ article p {
     color: #e2e8f0;
     font-size: 1.2rem;
 }
+
+/* FOOTER */
+footer {
+    height: 20vh;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0b1120;
+}
+
+footer .nav-links {
+    margin-bottom: 1.5rem;
+}
+
+/* ARROW ICON */
+.arrow {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.arrow:hover {
+    opacity: 1;
+    transform: translateY(5px);
+}
+
